@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Page Title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link async rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.2/css/flag-icon.min.css">
+        <link async rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/css/select2.min.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+
+    </head>
+
+    <body>
+      <form class="forms" metho="POST" action="...">
+          <div class="title">Using Unicode Chars, HTML, and CSS</div>
+          <p>This option works with mobile the best, because then you get the native select options and lets mobile users select quickly. Also works on all browsers, except in IE the flags don't work, and custom styling is difficult. Using this native options allows us to keep accessibility options like scroll down / up with arrow keys without any JS.</p>
+          <select class="select" name="citizen-of">
+                <option class="option" value="0" data-slug=""><strong>Select Citizenship</strong></option>
+                <option class="option" disabled value="1" data-slug=""><strong>Top Suggestions</strong></option>
+              <option class="option" value="209" data-slug="us">🇺🇸United States</option>
+              <option class="option" value="90" data-slug="in">🇮🇳India</option>
+              <option class="option" value="208" data-slug="gb">🇬🇧United Kingdom</option>
+              <option class="option" value="34" data-slug="ca">🇨🇦Canada</option>
+              <option class="option" value="11" data-slug="au">🇦🇺Australia</option>
+              <option class="option" value="40" data-slug="cn">🇨🇳China</option>
+              <option class="option" disabled>&nbsp; _____________________________</option>
+              <option class="option" value="209" data-slug="us">United States</option>
+              <option class="option" value="90" data-slug="in">🇮🇳India</option>
+              <option class="option" value="208" data-slug="gb">🇬🇧United Kingdom</option>
+              <option class="option" value="34" data-slug="ca">🇨🇦Canada</option>
+              <option class="option" value="11" data-slug="au">🇦🇺Australia</option>
+              <option class="option" value="40" data-slug="cn">🇨🇳China</option>
+              <option class="option" disabled>&nbsp; _____________________________</option>
+              <option class="option" value="209" data-slug="us">United States</option>
+              <option class="option" value="90" data-slug="in">🇮🇳India</option>
+              <option class="option" value="208" data-slug="gb">🇬🇧United Kingdom</option>
+              <option class="option" value="34" data-slug="ca">🇨🇦Canada</option>
+              <option class="option" value="11" data-slug="au">🇦🇺Australia</option>
+              <option class="option" value="40" data-slug="cn">🇨🇳China</option>
+              <option class="option" disabled>&nbsp; _____________________________</option>
+              <option class="option" value="209" data-slug="us">United States</option>
+              <option class="option" value="90" data-slug="in">🇮🇳India</option>
+              <option class="option" value="208" data-slug="gb">🇬🇧United Kingdom</option>
+              <option class="option" value="34" data-slug="ca">🇨🇦Canada</option>
+              <option class="option" value="11" data-slug="au">🇦🇺Australia</option>
+              <option class="option" value="40" data-slug="cn">🇨🇳China</option>
+              <option class="option" disabled>&nbsp; _____________________________</option>
+              <option class="option" value="209" data-slug="us">United States</option>
+              <option class="option" value="90" data-slug="in">🇮🇳India</option>
+              <option class="option" value="208" data-slug="gb">🇬🇧United Kingdom</option>
+              <option class="option" value="34" data-slug="ca">🇨🇦Canada</option>
+              <option class="option" value="11" data-slug="au">🇦🇺Australia</option>
+              <option class="option" value="40" data-slug="cn">🇨🇳China</option>
+              <option class="option" disabled>&nbsp; _____________________________</option>
+              <option class="option" value="209" data-slug="us">United States</option>
+              <option class="option" value="90" data-slug="in">🇮🇳India</option>
+              <option class="option" value="208" data-slug="gb">🇬🇧United Kingdom</option>
+              <option class="option" value="34" data-slug="ca">🇨🇦Canada</option>
+              <option class="option" value="11" data-slug="au">🇦🇺Australia</option>
+              <option class="option" value="40" data-slug="cn">🇨🇳China</option>
+          </select>
+          <div class="spacer"></div>
+          <div class="title">Using jQuery, Select 2, and Flag-Icon</div>
+          <p>This works with IE11, and allows searching. I just think that it is a little slow because it is using external assets. Let's see what happenes when we store the file locally, but even then this option involves a bit of jQuery, relies on the Select 2 library, and it relies on the Flag-Icon library. Customizing the fields is not that much easier, it uses themes for styling. On mobile its a pain to scroll, its not as easy as it is on desktop, or as easy as it is with native option select</p>
+          <select class="other-select" name="country"></select> 
+          <div class="spacer"></div>
+      </form>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/js/select2.min.js"></script>
+      <script src="main.js"></script>
+    </body>
+</html>
